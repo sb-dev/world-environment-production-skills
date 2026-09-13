@@ -1,8 +1,8 @@
 # World / Environment Production Skills — New Project Bootstrap Process
 
 **Status:** Bootstrap specification  
-**Version:** 1.0  
-**Date:** 8 September 2026
+**Version:** 1.1  
+**Date:** 13 September 2026
 
 ## 1. Purpose
 
@@ -29,7 +29,7 @@ world / environment intent
 → production-ready world / environment handoff
 ```
 
-The exact workflow must be validated through professional-practice research before it becomes a skill contract.
+The exact workflow must be validated through domain research before it becomes a skill contract.
 
 `world-environment-production-skills` owns reusable production expertise for **spatial world design, environment structure, real-world ingestion, modular and procedural environment production, environment assembly, spatial consistency, representation fidelity and environment-level evaluation**.
 
@@ -55,6 +55,7 @@ Use the current Production Skills family process as canonical:
 - `production-skills/docs/bootstrap/README.md`
 - `production-skills/docs/bootstrap/new-project-process.md`
 - `production-skills/docs/bootstrap/domain-research-process.md`
+- `production-skills/docs/bootstrap/extension-pack-process.md`
 - `production-skills/docs/bootstrap/shared-abstraction-process.md`
 - `production-skills/docs/specs/01-production-skills-family-system.md`
 - `production-skills/docs/specs/02-production-skills-project-contract.md`
@@ -77,19 +78,35 @@ Newer family requirements take precedence:
 ```text
 bootstrap workspace before substantive research
 research logs as durable stage outputs
+Seed → Five → Challenge
+exactly five complementary foundational books
+explicit permission before supplied-book substitution
+direct-source examination and traceable extraction
+evidence-qualified domain model
 six canonical specs
 5 levels × 3 primary examples
 first-class Extension Packs
+evidence-led Extension Pack catalogue curation
+five justified books per selected Extension Pack
 pack-authoring capability
+separate pack research / implementation / evaluation status
 core-vs-pack differential evaluation
 clean external installation smoke tests
 ```
+
+### v1.1 migration
+
+Version 1.1 explicitly adopts the Production Skills **Seed → Five → Challenge** domain-research process and the evidence-led Extension Pack bootstrap process.
+
+No substantive bootstrap stages had been executed under v1.0 beyond this specification and the research-log README, so stage numbers are updated directly rather than introducing compatibility aliases. Existing Worldstack-derived analysis is retained as seed evidence and input to the new stages.
+
+The migration does **not** imply that corpus selection, direct book examination, broader professional challenge research, Extension Pack research, implementation or evaluation has already occurred.
 
 ---
 
 ## 3. Initial Domain Evidence and Boundary Hypotheses
 
-Worldstack provides several constraints that the bootstrap should preserve without overfitting to that project.
+The material below is **seed evidence**. It establishes important world/environment production hypotheses and research questions, but does not satisfy the five-book extraction stage or the broader challenge stage.
 
 ### World state is not world representation
 
@@ -120,7 +137,7 @@ A broad city may need to exist cheaply before a single street becomes expensive.
 
 Worldstack owns executable models, simulation state and experiment semantics. Production Skills own reusable specialist production technique. Pactwright owns authorised lifecycle and Evidence. Project Intelligence owns Worldstack-specific durable conclusions.
 
-For this project the likely interface is:
+Likely interface:
 
 ```text
 approved world state / project brief / gameplay constraints / research
@@ -132,7 +149,7 @@ approved world state / project brief / gameplay constraints / research
 
 ### Behavioural contracts should survive representation changes
 
-A location or system should be able to move from primitive to production representation without requiring unrelated systems to be redesigned, provided the agreed spatial/behavioural contracts remain stable.
+A location or system should be able to move from primitive to production representation without requiring unrelated systems to be redesigned, provided agreed spatial and behavioural contracts remain stable.
 
 ### Worldstack's capability-gap loop remains external
 
@@ -142,15 +159,11 @@ Worldstack may discover production gaps and send them to the Production Skills i
 
 ## 4. Governing Principles
 
-Retain the Production Skills family principles and specialise them for worlds and environments.
-
 ### Spatial structure before surface detail
 
 Resolve topology, scale, circulation, adjacency, hierarchy, access and major environmental relationships before investing in decorative fidelity.
 
 ### Cheapest useful spatial representation
-
-Use the cheapest representation capable of answering the current question:
 
 ```text
 written spatial brief
@@ -163,19 +176,19 @@ written spatial brief
 → selective hero treatment
 ```
 
-The correct representation depends on uncertainty, not prestige.
+Choose representation according to uncertainty, not prestige.
 
 ### Breadth before hero fidelity when world architecture is uncertain
 
-For large worlds, prove extent, connectivity, streaming partitions, density and system integration cheaply before authorising expensive local detail.
+For large worlds, prove extent, connectivity, partitions, density and system integration cheaply before authorising expensive local detail.
 
 ### Reference is evidence, not instruction to copy blindly
 
-Maps, photographs, scans, street imagery, plans, satellite imagery, open data and creative references must retain provenance, source limitations and uncertainty. Real-world ingestion should distinguish measured facts, inferred structure, approximations and creative departures.
+Maps, photographs, scans, street imagery, plans, satellite imagery, open data and creative references must retain provenance, source limitations and uncertainty. Distinguish measured facts, inferred structure, approximations and creative departures.
 
 ### World structure and asset craft are separate responsibilities
 
-World / Environment Production Skills should decide what spatial systems, modular kits, assets, rules and placement grammar are required. 3D Production Skills should own specialist construction of individual production assets where that work is reusable 3D craft.
+World / Environment Production Skills decide what spatial systems, modular kits, assets, rules and placement grammar are required. 3D Production Skills owns specialist construction of individual production assets where that work is reusable 3D craft.
 
 Low-fidelity primitives and procedural geometry may remain inside world/environment production when they are the cheapest representation needed to answer a spatial question.
 
@@ -185,7 +198,7 @@ Game Development Skills owns mechanics, encounters, traversal rules, player goal
 
 ### Environment state must remain explainable
 
-For procedurally or systemically generated environments, preserve enough information to explain:
+For procedurally or systemically generated environments preserve:
 
 ```text
 source inputs
@@ -198,15 +211,13 @@ known limitations
 
 ### Selective fidelity promotion
 
-Promote only the locations, systems and assets whose higher fidelity has been justified by player experience, simulation representation, visual priority, camera exposure, performance constraints or product requirements.
+Promote only locations, systems and assets whose higher fidelity is justified by player experience, simulation representation, visual priority, camera exposure, performance constraints or product requirements.
 
 ### Preserve approved spatial work
 
-An accepted road network, district boundary, building footprint, terrain profile, landmark placement or modular rule should not be silently rewritten during an unrelated refinement.
+An accepted road network, district boundary, building footprint, terrain profile, landmark placement or modular rule should not be silently rewritten during unrelated refinement.
 
 ### Correct the smallest responsible layer
-
-Examples:
 
 ```text
 wrong map alignment
@@ -233,11 +244,11 @@ world-state mismatch
 
 ### Runtime constraints are production inputs
 
-Streaming, LOD/HLOD, occlusion, collision, navigation, memory, draw/instance budgets, platform limits and coordinate precision may materially constrain world production. The project should define environment-level requirements while delegating engine/tool implementation to the appropriate execution or engineering layer.
+Streaming, LOD/HLOD, occlusion, collision, navigation, memory, draw/instance budgets, platform limits and coordinate precision may materially constrain world production. Define environment-level requirements while delegating engine/tool implementation appropriately.
 
 ### Legal provenance is not optional for real-world ingestion
 
-Maps, imagery, scans, brands, architecture, public data and third-party assets may carry copyright, database, privacy, trade mark, contractual or licence constraints. Legal Skills should own legal analysis; World / Environment Production Skills must preserve provenance and legal constraints through production handoffs.
+Maps, imagery, scans, brands, architecture, public data and third-party assets may carry copyright, database, privacy, trade mark, contractual or licence constraints. Legal Skills owns legal analysis; World / Environment Production Skills preserves provenance and legal constraints through production handoffs.
 
 ---
 
@@ -250,56 +261,62 @@ PROJECT IDEA
     ↓
 1. Define Domain Goal and Adjacent Boundaries
     ↓
-2. Research Professional World / Environment Production Practice
+2. Select Complementary Five-Book World / Environment Corpus
     ↓
-3. Define Spatial, Scale, Coordinate and World-Structure Model
+3. Extract and Reconcile Five-Book Corpus
     ↓
-4. Define Source Ingestion, Reference and Provenance Model
+4. Challenge and Extend Through Professional World / Environment Practice
     ↓
-5. Define Representation, Fidelity and Commitment Strategy
+5. Define Spatial, Scale, Coordinate and World-Structure Model
     ↓
-6. Define Modular, Procedural and Assembly Model
+6. Define Source Ingestion, Reference and Provenance Model
     ↓
-7. Define Runtime, Streaming and Cross-Domain Handoffs
+7. Define Representation, Fidelity and Commitment Strategy
     ↓
-8. Research AI Skills, DCCs, Engines, GIS and Environment Tools
+8. Define Modular, Procedural and Assembly Model
     ↓
-9. Choose Execution Layer and Tool Boundaries
+9. Define Runtime, Streaming and Cross-Domain Handoffs
     ↓
-10. Gap Analysis + Over-Engineering Guardrails
+10. Research AI Skills, DCCs, Engines, GIS and Environment Tools
     ↓
-11. Design Core Skills and Commands
+11. Choose Execution Layer and Tool Boundaries
     ↓
-12. Design Extension Packs and Pack Authoring
+12. Gap Analysis + Over-Engineering Guardrails
     ↓
-13. Design Progressive Examples
+13. Design Core Skills and Commands
     ↓
-14. Design Worldstack + Independent Canonical Stress Tests
+14. Design Extension Pack Catalogue, Research and Pack Authoring
     ↓
-15. Design Evals, Benchmarks and Regression Fixtures
+15. Design Progressive Examples
     ↓
-16. Generate Six Canonical Specs
+16. Design Worldstack + Independent Canonical Stress Tests
     ↓
-17. Design Public README
+17. Design Evals, Benchmarks and Regression Fixtures
     ↓
-18. Cross-Project Review
+18. Generate Six Canonical Specs
     ↓
-19. Scaffold Production Repository
+19. Design Public README
     ↓
-20. Implement and Prove Core Vertical
+20. Cross-Project Review
     ↓
-21. Expand Progressive Coverage and Extension Packs
+21. Scaffold Production Repository
     ↓
-22. Validate Installation and Repository Integrity
+22. Implement and Prove Core Vertical
     ↓
-23. Optional Pactwright Integration + Registry Promotion
+23. Expand Progressive Coverage and Extension Packs
     ↓
-24. Review Shared-Abstraction Candidates
+24. Validate Installation and Repository Integrity
+    ↓
+25. Optional Pactwright Integration + Registry Promotion
+    ↓
+26. Review Shared-Abstraction Candidates
     ↓
 MATURE WORLD / ENVIRONMENT PRODUCTION SKILLS PROJECT
 ```
 
-The Stage 0 repository is a bootstrap workspace, not the production scaffold created at Stage 19.
+The Stage 0 repository is a bootstrap workspace, not the production scaffold created at Stage 21.
+
+Stages 2, 3 and 4 are separate completion gates. Do not collapse corpus selection, direct-source extraction and broader professional challenge merely to progress faster.
 
 ---
 
@@ -322,6 +339,31 @@ Do not create `skills/`, `examples/`, `benchmarks/`, `extension-packs/`, tooling
 
 Every substantive stage should write detailed findings into `docs/research-logs/`. Conversation should carry summaries and decisions rather than becoming the durable research store.
 
+Treat each stage as a standalone task. Read required prior logs, complete substantive work, check exit criteria and commit the detailed research log before dependent work proceeds.
+
+Suggested stage-log pattern:
+
+```text
+docs/research-logs/
+├── 2026-09-08-world-environment-production-skills-new-project-bootstrap-process.md
+├── YYYY-MM-DD-stage-01-domain-boundary.md
+├── YYYY-MM-DD-stage-02-five-book-corpus-selection.md
+├── YYYY-MM-DD-stage-03-five-book-extraction.md
+├── YYYY-MM-DD-stage-04-professional-practice-challenge.md
+├── YYYY-MM-DD-stage-05-spatial-world-structure.md
+└── ...
+```
+
+Later Extension Pack research should also use durable per-pack logs:
+
+```text
+YYYY-MM-DD-extension-pack-catalogue-selection.md
+YYYY-MM-DD-pack-<name>-01-specialisation.md
+YYYY-MM-DD-pack-<name>-02-five-book-selection.md
+YYYY-MM-DD-pack-<name>-03-extraction.md
+YYYY-MM-DD-pack-<name>-04-challenge.md
+```
+
 Creating the repository does **not** make the project `scaffolded`.
 
 **Exit:** the workspace exists and later stages can operate from durable research files.
@@ -330,7 +372,7 @@ Creating the repository does **not** make the project `scaffolded`.
 
 # 7. Stage 1 — Define Domain Goal and Adjacent Boundaries
 
-Resolve what the project owns across:
+Resolve ownership across:
 
 ```text
 world design
@@ -348,37 +390,113 @@ runtime environment preparation
 environment evaluation
 ```
 
-Explicitly define boundaries with:
+Define boundaries with Worldstack, Game Development, 3D Production, Deep Research, Legal, Narrative, UI/UX, Character/Animation, Audio/Music, Software Engineering, QA/Evaluation and Pactwright.
 
-```text
-Worldstack / simulation models
-Game Development Skills
-3D Production Skills
-Deep Research Skills
-Legal Skills
-Narrative Production Skills
-UI/UX Design Skills
-Character / Animation Production Skills
-Audio / Music Production Skills
-Software Engineering Skills
-QA / Evaluation Skills
-Pactwright
-```
-
-Key questions:
+Key questions include:
 
 - Does the core own both real-world reconstruction and fictional world production?
 - What is world design versus game-level design?
-- What environment geometry remains legitimate inside this project versus 3D Production Skills?
+- What geometry remains legitimate inside this project versus 3D Production Skills?
 - How are physical/geographic facts separated from creative interpretation?
 - How are environment requirements handed to asset-production domains?
-- What counts as a reusable world-production technique rather than Worldstack/project-specific knowledge?
+- What counts as reusable world-production technique rather than Worldstack/project-specific knowledge?
 
 **Exit:** a defensible domain boundary exists before skill design.
 
 ---
 
-# 8. Stage 2 — Research Professional World / Environment Production Practice
+# 8. Stage 2 — Select Complementary Five-Book World / Environment Corpus
+
+Apply `production-skills/docs/bootstrap/domain-research-process.md`.
+
+Use bounded reconnaissance only to map the knowledge required by the Stage 1 boundary and compare candidate books. Do not turn this stage into the full professional-practice challenge.
+
+Candidate coverage dimensions include:
+
+```text
+spatial / environment design
+world structure and circulation
+architecture / urban morphology / landscape
+modular environment production
+procedural world generation
+real-world / geospatial reconstruction
+environment art and composition
+runtime / streaming / technical constraints
+environmental storytelling
+multi-scale production and fidelity
+```
+
+These are candidate dimensions, not fixed book slots.
+
+Select **exactly five distinct foundational books** whose combined contribution best covers the domain. Research a broader candidate pool rather than simply choosing five popular environment books. Useful overlap may add depth; unnecessary duplication should not crowd out major domain responsibilities.
+
+For each selected book record:
+
+```text
+title / author
+edition / publication year
+provided or selected origin
+intended contribution
+access status
+material available for examination
+known limitations
+```
+
+User-provided books remain unless the user explicitly approves removal, replacement or demotion. Any substitution proposal must explain the overlap/coverage problem, expected gain, potential loss and alternative. Silence is not approval.
+
+Five books are the foundational corpus, not a limit on later papers, talks, standards, documentation, maps, technical sources or additional books.
+
+**Research-log output:** coverage map, candidate comparison, selected corpus, access register, substitution decisions and remaining gaps.
+
+**Exit:** exactly five books are selected, required permissions are resolved, and access needs/gaps are explicit.
+
+---
+
+# 9. Stage 3 — Extract and Reconcile Five-Book Corpus
+
+Meaningfully examine all five books for their intended contribution. Publisher summaries, contents pages and model memory may help selection but are not direct-source extraction.
+
+For material concepts record:
+
+```text
+source + location actually examined
+spatial / production problem
+principle / method / heuristic
+applicability and assumptions
+production decision affected
+representation / artefact implication
+failure conditions / misuse risks
+repair implications
+evaluation criterion
+provisional capability
+```
+
+Produce:
+
+```text
+per-book findings
+source-to-capability matrix
+overlap analysis
+conflict log
+provisional World / Environment capability model
+```
+
+Do not create one skill per book or assume agreement between architectural, level-design, environment-art and procedural sources means one universal method. Preserve meaningful disagreement and context.
+
+A source may contribute little after examination; record that honestly instead of inventing a capability.
+
+**Exit:** all five books have been meaningfully examined for their intended contributions; material findings are traceable; gaps, conflicts and limitations remain explicit.
+
+---
+
+# 10. Stage 4 — Challenge and Extend Through Professional World / Environment Practice
+
+Use the provisional capability model to guide, not limit, independent domain research.
+
+Answer both questions:
+
+1. Which book-derived principles hold in professional practice, under what conditions and with what limitations?
+2. Which important responsibilities, workflows or technical realities are missing from the books?
 
 Study complementary disciplines rather than one studio pipeline:
 
@@ -400,36 +518,44 @@ digital-twin / city-model production as a comparison domain
 historical reconstruction where useful
 ```
 
-Capture:
+Capture roles, terminology, briefing/reference practice, spatial decomposition, scale/coordinates, blockout methods, modular kits, procedural grammar, environment bills of materials, set dressing, terrain/road/building workflows, review points, performance constraints, failures, repair scopes, handoffs and quality criteria.
+
+Challenge through current non-book evidence where appropriate:
 
 ```text
-roles and terminology
-briefing and reference practice
-spatial decomposition
-scale / coordinate handling
-blockout / greybox methods
-modular kit design
-procedural grammar
-asset lists / environment bills of materials
-set dressing
-terrain / road / building workflows
-review / approval points
-performance and streaming constraints
-common failure modes
-repair scopes
-handoffs
-quality criteria
+engine and DCC documentation
+GIS / geospatial standards
+technical-art practice
+studio talks / postmortems
+procedural-generation research
+photogrammetry / reconstruction research
+runtime / streaming documentation
+professional case studies
 ```
 
-Do not import one engine's world-building workflow as the universal production model.
+Do not import one engine's world-building workflow as the universal model. Explicitly test whether the capability model works for both a Worldstack-style simulation-driven real-world consumer and an independently authored fictional world.
 
-**Exit:** the production model is grounded in professional environment practice rather than generation-provider features.
+Keep source classes distinct:
+
+```text
+book-derived production principle
+professional-practice evidence
+measured spatial source
+technical documentation
+creative reference
+researcher inference
+project-specific constraint
+```
+
+The output is an **evidence-qualified World / Environment production model**, not a claim that every retained method has been universally validated.
+
+**Exit:** material book-derived findings have been assessed, important gaps are addressed or bounded, and the domain model stands independently of Worldstack and current generation providers.
 
 ---
 
-# 9. Stage 3 — Define Spatial, Scale, Coordinate and World-Structure Model
+# 11. Stage 5 — Define Spatial, Scale, Coordinate and World-Structure Model
 
-Research the minimum common spatial language the skills need without inventing a universal world ontology.
+Research the minimum common spatial language needed without inventing a universal world ontology.
 
 Candidate concerns:
 
@@ -437,7 +563,7 @@ Candidate concerns:
 extent / bounds
 coordinate reference / local origin
 scale / units
-elevation / terrain datum where relevant
+elevation / terrain datum
 regions / districts / zones
 routes / networks
 parcels / plots / footprints
@@ -452,20 +578,7 @@ spatial constraints
 semantic tags only where production requires them
 ```
 
-Investigate artefacts such as:
-
-```text
-world brief
-spatial plan
-annotated map
-world hierarchy
-district sheet
-route / circulation map
-landmark map
-scale reference
-partition plan
-environment contract
-```
+Investigate artefacts such as world briefs, spatial plans, annotated maps, world hierarchies, district sheets, route/circulation maps, landmark maps, scale references, partition plans and environment contracts.
 
 Avoid a universal Event Graph, GIS ontology or scene graph until repeated integrations prove a need.
 
@@ -473,29 +586,9 @@ Avoid a universal Event Graph, GIS ontology or scene graph until repeated integr
 
 ---
 
-# 10. Stage 4 — Define Source Ingestion, Reference and Provenance Model
+# 12. Stage 6 — Define Source Ingestion, Reference and Provenance Model
 
-Research how worlds are derived from:
-
-```text
-maps
-open geospatial data
-satellite / aerial imagery
-street-level imagery
-photographs
-video
-architectural plans
-survey / scan data
-point clouds
-photogrammetry
-Gaussian splats / neural reconstruction references
-historical maps / archives
-concept art
-moodboards
-written briefs
-simulation / Worldstack outputs
-existing game / project state
-```
+Research worlds derived from maps, geospatial data, satellite/aerial imagery, street imagery, photographs, video, plans, survey/scan data, point clouds, photogrammetry, Gaussian splats/neural reconstruction references, historical maps/archives, concept art, moodboards, written briefs, Worldstack outputs and existing project state.
 
 For each source class capture:
 
@@ -509,13 +602,11 @@ precision
 known distortions
 missing areas
 confidence / uncertainty
-whether it is measured, inferred or stylistic reference
+measured vs inferred vs stylistic status
 allowed downstream use
 ```
 
-Define how Deep Research and Legal Skills hand evidence and constraints into environment production without moving their domain semantics into this repository.
-
-Real-world ingestion should preserve distinctions such as:
+Preserve:
 
 ```text
 observed geometry
@@ -525,13 +616,15 @@ creative substitution
 unknown
 ```
 
-**Exit:** a world can be reconstructed or inspired by external sources without losing provenance or confusing approximation with fact.
+Define how Deep Research and Legal Skills hand evidence and constraints into production without moving those domains into this repository.
+
+**Exit:** reconstruction or inspiration can proceed without losing provenance or confusing approximation with fact.
 
 ---
 
-# 11. Stage 5 — Define Representation, Fidelity and Commitment Strategy
+# 13. Stage 7 — Define Representation, Fidelity and Commitment Strategy
 
-Validate a domain-native fidelity ladder such as:
+Validate a domain-native ladder such as:
 
 ```text
 L0 structured / annotated spatial state
@@ -543,97 +636,33 @@ L5 production environment
 L6 selective hero-quality treatment
 ```
 
-The final levels may differ from Worldstack's project-specific ladder.
+Map uncertainty to the cheapest representation able to answer it: road hierarchy to maps/networks, density to simple massing, route readability to blockout, terrain to low-resolution heightfields, kit coverage to matrices/sample blocks, procedural rules to seeded low-detail generation, landmarks to primitive massing, state representation to debug views and streaming partition to broad low-detail worlds.
 
-Map uncertainty to cheap evidence:
+Define commitment points for expensive asset commissioning, large procedural generation, world-wide re-layout and hero production.
 
-| Uncertainty | Cheap representation hypothesis |
-|---|---|
-| city extent / road hierarchy | map / network plan |
-| district density | simple massing |
-| route readability | blockout |
-| terrain shape | low-resolution heightfield |
-| modular kit coverage | kit matrix + sample block |
-| procedural rule quality | seeded low-detail generation |
-| landmark silhouette | primitive massing |
-| world-state visualisation | debug / primitive representation |
-| streaming partition | broad low-detail world |
-| camera / sightline exposure | representative slice |
-
-Define commitment points for expensive asset commissioning, large procedural generation runs, world-wide re-layout and hero production.
-
-**Exit:** fidelity is chosen according to uncertainty and cost, not by defaulting to final art.
+**Exit:** fidelity follows uncertainty and cost rather than defaulting to final art.
 
 ---
 
-# 12. Stage 6 — Define Modular, Procedural and Assembly Model
+# 14. Stage 8 — Define Modular, Procedural and Assembly Model
 
-Research reusable production concepts such as:
+Research modular kits, snapping, variation, facade/building/road grammars, parcel generation, terrain/biome rules, vegetation distribution, prop/signage placement, semantic constraints, seeds, manual overrides, art-direction constraints, protected zones, budgets and repeat detection.
 
-```text
-modular kits
-tiling / snapping rules
-variation sets
-facade / building grammars
-road / path grammars
-parcel / block generation
-terrain / biome rules
-vegetation distribution
-prop / signage placement
-semantic placement constraints
-seeded generation
-manual overrides
-art-direction constraints
-exclusion / protected zones
-asset budgets
-repeat detection
-```
+For procedural work preserve inputs, seed, rules, constraints, selected outputs, overrides and version. Investigate when to regenerate versus locally repair and ensure approved local work can survive appropriate regeneration.
 
-For procedural work preserve:
-
-```text
-inputs
-seed
-rules
-constraints
-selected outputs
-manual overrides
-version
-```
-
-Investigate when generated layout should be regenerated versus locally repaired. Avoid procedures that make approved local work impossible to preserve.
-
-**Exit:** the project can build coherent repeatable environments without turning procedural generation into an opaque one-shot operation.
+**Exit:** repeatable environments can be built without turning procedural generation into an opaque one-shot operation.
 
 ---
 
-# 13. Stage 7 — Define Runtime, Streaming and Cross-Domain Handoffs
+# 15. Stage 9 — Define Runtime, Streaming and Cross-Domain Handoffs
 
-Research environment-level requirements for:
+Research environment-level requirements for world partitioning/streaming, LOD/HLOD, occlusion, collision, navigation/traversal handoffs, coordinate precision/origin shifting, instancing, memory/geometry/material budgets, loading boundaries, runtime variation, state-driven representation and platform constraints.
 
-```text
-world partitioning / streaming
-LOD / HLOD
-occlusion / visibility
-collision
-navigation surfaces / traversal handoffs
-coordinate precision / origin shifting where relevant
-instancing
-memory and geometry budgets
-material / texture budgets
-loading boundaries
-runtime variation
-state-driven representation
-platform constraints
-```
-
-The project should define production requirements and acceptance evidence, not reimplement game-engine streaming or general software architecture.
-
-Define handoffs such as:
+Define handoffs:
 
 ```text
 Game Development
-→ traversal / encounter / gameplay constraints
+→ gameplay / traversal / encounter constraints
 → World / Environment
 → spatial environment
 ```
@@ -667,132 +696,43 @@ Narrative
 → spatial / set-dressing requirements
 ```
 
-**Exit:** adjacent domains can collaborate without unclear ownership of the environment or its underlying model.
+**Exit:** adjacent domains collaborate without unclear ownership of the environment or underlying model.
 
 ---
 
-# 14. Stage 8 — Research AI Skills, DCCs, Engines, GIS and Environment Tools
+# 16. Stage 10 — Research AI Skills, DCCs, Engines, GIS and Environment Tools
 
-Research capabilities, not brands alone.
+Research capabilities across Agent Skills, level-design skills, Blender/Houdini/similar DCC automation, Unreal/Unity/Godot tooling, GIS, OpenStreetMap/Overture/commercial maps, CityEngine/city generation, terrain tools, photogrammetry/scanning, point clouds, reconstruction, text/image-to-3D, procedural frameworks, asset libraries, scene validation, streaming/profiling, navigation/collision inspection and reference tooling.
 
-Categories should include:
+Evaluate capability, licence, data rights, maturity, automation surface, determinism, provider coupling, cost, scale, engine/DCC coupling, composability, quality and maintenance. Classify `USE`, `ADAPT`, `REFERENCE` or `REJECT`.
 
-```text
-world / environment Agent Skills
-level-design skills
-3D / DCC automation
-Blender / Houdini / similar procedural tools
-Unreal / Unity / Godot world-building tooling
-GIS / geospatial tools
-OpenStreetMap / Overture / commercial map providers where relevant
-CityEngine / city-generation tools
-terrain / erosion tools
-photogrammetry / scanning
-point-cloud / reconstruction tools
-text/image-to-3D services
-procedural-generation frameworks
-asset libraries / marketplaces
-scene validation / geometry inspection
-streaming / profiling / runtime capture
-navigation / collision inspection
-image / video / map reference tooling
-```
-
-Evaluate each candidate for capability, licence, data rights, maturity, automation surface, determinism, provider coupling, cost, scale, engine/DCC coupling, composability, quality and maintenance.
-
-Classify candidates `USE`, `ADAPT`, `REFERENCE` or `REJECT`.
-
-**Exit:** the project understands which operations should be delegated to existing environment-production tools.
+**Exit:** the project knows which operations should be delegated to existing environment-production tools.
 
 ---
 
-# 15. Stage 9 — Choose Execution Layer and Tool Boundaries
+# 17. Stage 11 — Choose Execution Layer and Tool Boundaries
 
-World / Environment Production Skills should own production decisions such as:
+World / Environment Production Skills should own spatial interpretation, world decomposition, representation choice, fidelity/commitment strategy, modular/procedural grammar, source-to-space translation, asset/handoff requirements, assembly strategy, state-to-representation mapping, environment-level quality criteria and repair scope.
 
-```text
-spatial interpretation
-world decomposition
-representation choice
-fidelity / commitment strategy
-modular / procedural grammar
-source-to-space translation
-asset / handoff requirements
-assembly strategy
-state-to-representation mapping
-environment-level quality criteria
-repair scope
-```
+Existing tools should execute GIS transforms, terrain processing, procedural generation, mesh/material work, scene editing/import, rendering, streaming builds, collision/nav generation, runtime profiling, map/imagery retrieval and reconstruction where suitable.
 
-Existing tools should execute, where suitable:
+Do not build a universal DCC adapter or scene runtime without concrete evidence.
 
-```text
-GIS transforms
-terrain processing
-procedural generation
-mesh / material production
-scene editing
-asset import
-rendering
-streaming build
-collision / nav generation
-runtime profiling
-map / imagery retrieval
-photogrammetry / reconstruction
-```
-
-Do not build a universal DCC adapter or scene runtime before concrete evidence requires one.
-
-**Exit:** tools can be replaced without redesigning reusable world-production intelligence.
+**Exit:** execution tools can change without redesigning reusable production intelligence.
 
 ---
 
-# 16. Stage 10 — Gap Analysis and Over-Engineering Guardrails
+# 18. Stage 12 — Gap Analysis and Over-Engineering Guardrails
 
-Test for gaps in:
+Test for gaps in reference-to-world translation, approximation discipline, spatial consistency, multi-scale planning, breadth-first production, modular kit planning, procedural rules, manual/procedural coexistence, provenance, state-to-representation mapping, asset handoffs, cross-domain assembly, streaming/budgets, failure diagnosis and selective fidelity.
 
-```text
-reference-to-world translation
-real-world approximation discipline
-spatial consistency
-multi-scale world planning
-cheap breadth-first production
-modular kit planning
-procedural rule design
-manual/procedural coexistence
-provenance continuity
-state-to-representation mapping
-asset requirement handoffs
-cross-domain environment assembly
-streaming / budget awareness
-spatial failure diagnosis
-selective fidelity promotion
-```
+Defer unless proven necessary: universal world graph, universal GIS schema, custom engine/GIS/map service, universal coordinate abstraction, universal procedural DSL, city simulator, central asset database, custom photogrammetry stack, digital-twin platform, universal streaming engine, provider-neutral DCC runtime and one universal environment-quality score.
 
-Defer unless proven necessary:
-
-```text
-universal world graph
-universal GIS schema
-custom game engine
-custom GIS platform
-custom map service
-universal coordinate-system abstraction
-universal procedural world DSL
-universal city simulator
-central asset database
-custom photogrammetry stack
-digital-twin platform
-universal streaming engine
-provider-neutral DCC runtime
-one universal environment-quality score
-```
-
-**Exit:** native skills address proven production gaps rather than building a world platform inside the skills repository.
+**Exit:** native skills address proven production gaps rather than building a world platform inside the repository.
 
 ---
 
-# 17. Stage 11 — Design Core Skills and Commands
+# 19. Stage 13 — Design Core Skills and Commands
 
 Lean starting hypothesis:
 
@@ -802,46 +742,9 @@ world-environment-evaluate
 world-environment-pack-create
 ```
 
-Do not fix the final skill count until research validates responsibility boundaries.
+Possible production commands include `frame-environment`, `ingest-references`, `resolve-spatial-context`, `map-world-structure`, `plan-fidelity`, `blockout`, `plan-modular-kit`, `define-procedural-grammar`, `generate-layout`, `map-state-to-representation`, `plan-asset-handoffs`, `assemble-environment`, `prepare-runtime-environment`, `promote-fidelity` and `repair-environment`.
 
-Possible production commands:
-
-```text
-frame-environment
-ingest-references
-resolve-spatial-context
-map-world-structure
-plan-fidelity
-blockout
-plan-modular-kit
-define-procedural-grammar
-generate-layout
-map-state-to-representation
-plan-asset-handoffs
-assemble-environment
-prepare-runtime-environment
-promote-fidelity
-repair-environment
-```
-
-Possible evaluation commands:
-
-```text
-audit-scale
-audit-topology
-audit-circulation
-audit-reference-fidelity
-audit-provenance
-audit-modularity
-audit-procedural-consistency
-audit-repetition
-audit-world-state-representation
-audit-streaming-boundaries
-audit-runtime-budgets
-audit-cross-domain-handoffs
-verify-preservation
-diagnose-environment-failure
-```
+Possible evaluation commands include audits for scale, topology, circulation, reference fidelity, provenance, modularity, procedural consistency, repetition, world-state representation, streaming boundaries, runtime budgets and cross-domain handoffs, plus preservation verification and failure diagnosis.
 
 Retain commands only when they improve isolated evaluation, reuse, composition, diagnosis, targeted repair or benchmark precision.
 
@@ -849,11 +752,30 @@ Retain commands only when they improve isolated evaluation, reuse, composition, 
 
 ---
 
-# 18. Stage 12 — Design Extension Packs and Pack Authoring
+# 20. Stage 14 — Design Extension Pack Catalogue, Research and Pack Authoring
 
-Extension Packs should represent coherent reusable **world-production profiles**, not isolated labels such as `city`, `forest`, `realistic` or `Unreal`.
+Apply `production-skills/docs/bootstrap/extension-pack-process.md`.
 
-Candidate profiles to research:
+This stage has two responsibilities:
+
+1. curate complementary catalogue coverage;
+2. define and schedule the per-pack evidence process for selected specialisations.
+
+## 20.1 Catalogue curation
+
+Do not start from a fixed catalogue. Research or generate a broader candidate pool and assess combined coverage, reuse, distinct production behaviour, evaluation feasibility and overlap with core and neighbouring packs.
+
+Classify each need:
+
+```text
+existing pack covers the need → reuse
+one-project detail → project instructions
+broadly applicable world/environment responsibility → core-improvement candidate
+reusable specialised production behaviour → Extension Pack candidate
+insufficient value or evidence → defer / reject
+```
+
+Candidate profiles worth researching include:
 
 ```text
 real-world-city-reconstruction
@@ -865,24 +787,79 @@ dense-living-city
 simulation-driven-world-representation
 ```
 
+These are candidates, not a required catalogue. Catalogue size follows useful complementary coverage.
+
+## 20.2 Labels, engines and geographies are not sufficient packs
+
+Do not assume the following are valid packs merely because they are recognisable labels:
+
+```text
+Unreal
+Unity
+Houdini
+forest
+city
+London
+realistic
+```
+
+Engine/provider choice should normally remain execution configuration unless it materially changes reusable production grammar. A biome or geography alone is not necessarily a production methodology.
+
 A valid pack may alter:
 
 ```text
 source ecology
 spatial decomposition
-tolerance for approximation
-modular/procedural rules
-fidelity strategy
-asset requirements
-runtime constraints
-evaluation criteria
+approximation tolerance
+modular / procedural grammar
+representation / fidelity strategy
+asset commissioning
+runtime assumptions
 provenance requirements
+evaluation criteria
 cross-domain handoffs
 ```
 
-Engine/provider choice should normally remain execution configuration rather than a pack unless it materially changes reusable production grammar.
+## 20.3 Per-pack research process
 
-Pack precedence should normally be:
+Every selected pack follows:
+
+```text
+P1 define specialisation and core baseline
+P2 select five complementary foundational books
+P3 extract and reconcile specialised knowledge
+P4 challenge claims and extend coverage
+P5 specify behaviour and evaluation
+P6 implement and demonstrate
+P7 evaluate, clean-install and catalogue
+```
+
+Books may be reused across packs after the original direct-source evidence, edition, reading scope and applicability are checked. There is no requirement for five new books per pack and no permission to copy the core corpus blindly.
+
+User-provided pack books retain the same substitution approval rules as domain books.
+
+## 20.4 Source-to-behaviour traceability
+
+Map pack evidence as:
+
+```text
+source finding + location
+→ applicability to specialisation
+→ changed core decision
+→ observable artefact / workflow effect
+→ evaluation criterion
+→ failure / repair case
+```
+
+Use additional non-book evidence where required, especially engine/DCC documentation, GIS standards, technical-art guidance, streaming systems, reconstruction research and professional postmortems.
+
+## 20.5 Fair pack evaluation
+
+Before implementation define falsifiable acceptance cases. When implemented, compare core-only and core+pack on the same substantive brief and comparable conditions. The packed run must not receive a richer task brief simply to make the pack look useful.
+
+Use a distinct additional reuse fixture beyond the showcase. Keep research, implementation, evaluation and readiness statuses separate. A catalogue entry, pack directory or showcase prompt is not evidence of demonstrated quality.
+
+Pack precedence remains:
 
 ```text
 explicit project requirements
@@ -891,13 +868,11 @@ explicit project requirements
 → core World / Environment defaults
 ```
 
-Pack authoring should inspect the catalogue first, justify a reusable production grammar, define changed core behaviour, produce a realistic showcase with exact prompt, add behavioural and negative evals, compare core vs core+pack and validate packaging.
-
-**Exit:** the project can distinguish a reusable environment-production specialisation from a biome label, engine profile or project brief.
+**Exit:** selected packs are justified as reusable production specialisations, with explicit research plans and testable behaviour rather than labels or project briefs.
 
 ---
 
-# 19. Stage 13 — Design Progressive Examples
+# 21. Stage 15 — Design Progressive Examples
 
 Target:
 
@@ -905,244 +880,78 @@ Target:
 5 levels × 3 primary examples = 15 primary examples
 ```
 
-Select examples through a capability matrix rather than intuition.
+Select through a capability matrix.
 
-### Level 1 — Solve one bounded spatial/environment problem
+### Level 1 — one bounded spatial/environment problem
 
-Candidate classes:
+Examples may include a street-corner blockout from map/references, modular room/corridor kit proof and small terrain/trail section.
 
-```text
-street-corner blockout from map + references
-modular room / corridor spatial kit proof
-small terrain / trail section
-```
+### Level 2 — one coherent location
 
-### Level 2 — Produce one coherent location
+Examples may include an urban block/plaza, small natural landscape and interior+exterior venue/compound.
 
-Candidate classes:
+### Level 3 — complete environment slice
 
-```text
-urban block / plaza
-small natural landscape area
-interior + exterior venue / compound
-```
+Examples may include real-world district reconstruction, procedural settlement/village and fictional gameplay-oriented district.
 
-### Level 3 — Produce one complete environment slice
+### Level 4 — scale, systems and repair
 
-Candidate classes:
+Examples may include multi-district streamed city section, large mixed-biome region and state-driven environment reacting to weather/economy/population inputs.
 
-```text
-real-world district reconstruction slice
-procedural settlement / village
-fictional gameplay-oriented district
-```
+### Level 5 — full world/environment thesis
 
-### Level 4 — Handle scale, systems and repair
+Examples may include a Worldstack London slice from mixed evidence, a large fictional modular/procedural region and a historical/contemporary reconstruction with uncertainty, provenance and selective fidelity.
 
-Candidate classes:
+Across all 15 cover real/fictional worlds, urban/natural environments, plans/blockouts/procedural/production representations, maps/images/scans/written briefs, modular/procedural production, multi-scale composition, state representation, asset handoffs, streaming/runtime, preservation/repair, packs, legal provenance and cross-domain integration.
 
-```text
-multi-district streamed city section
-large mixed-biome region
-state-driven environment that changes with weather / economy / population inputs
-```
+Every primary example includes a complete copyable prompt.
 
-### Level 5 — Deliver the full world/environment thesis
-
-Candidate classes:
-
-```text
-Worldstack London world slice from mixed real-world evidence
-large fictional open-world region with modular + procedural production
-historical / contemporary reconstruction with uncertainty, provenance and selective fidelity
-```
-
-Across all examples cover:
-
-```text
-real vs fictional worlds
-urban vs natural environments
-2D plans / blockouts / procedural / production representation
-maps / images / scans / written briefs
-modular and procedural production
-multi-scale composition
-world-state representation
-asset handoffs
-streaming/runtime constraints
-preservation and repair
-Extension Packs
-legal provenance
-cross-domain integration
-```
-
-Every primary example must include a complete copyable generation prompt.
-
-**Exit:** the 15 examples demonstrate complementary environment-production capability rather than fifteen city scenes.
+**Exit:** examples demonstrate complementary capability rather than fifteen city scenes.
 
 ---
 
-# 20. Stage 14 — Design Worldstack and Independent Canonical Stress Tests
+# 22. Stage 16 — Design Worldstack and Independent Canonical Stress Tests
 
 ## Stress Test A — Worldstack real-world systems representation
 
-Use a recognisable London world slice or equivalent Worldstack Delivery to test:
+Use a recognisable London slice or equivalent Worldstack Delivery to test map/open-data ingestion, provenance, breadth before fidelity, stable spatial contracts, state-to-representation mapping, multiple system inputs, modular/procedural production, selective fidelity, handoffs, Pactwright compatibility and model replacement without unnecessary environment rewrite.
 
-```text
-map / open-data ingestion
-source provenance
-city breadth before fidelity
-stable spatial contracts
-world-state-to-representation mapping
-multiple system inputs
-modular / procedural production
-selective fidelity promotion
-Production Skills handoffs
-Pactwright compatibility
-model replacement without unnecessary environment rewrite
-```
-
-Important adversarial cases:
-
-```text
-simulation state changes but representation fails to update
-representation implies facts not present in the model
-real-world source disagreement is hidden
-map alignment error propagates into production assets
-hero-detail work is authorised before world connectivity works
-legal/source restriction is lost during asset handoff
-procedural regeneration destroys approved local edits
-```
+Adversarial cases include stale representation after state change, unsupported inferred facts, hidden source disagreement, map alignment error, premature hero work, lost legal/source restrictions and procedural regeneration destroying approved local edits.
 
 ## Stress Test B — Independent fictional world
 
-Use a fictional environment without Worldstack simulation dependency to prove the project remains generally reusable.
+Use a fictional environment without Worldstack dependency to test written/concept-art briefs, world structure, kit planning, procedural variation, spatial storytelling, Game/3D handoffs, runtime constraints, selective hero treatment and bounded repair.
 
-The fixture should test:
+Stage 4 should explicitly confirm that the evidence-qualified capability model can support both stress-test families.
 
-```text
-written / concept-art brief
-world structure
-modular kit planning
-procedural variation
-spatial storytelling
-Game Development handoffs
-3D asset handoffs
-runtime constraints
-selective hero treatment
-repair of one failing area without broad regeneration
-```
-
-This fixture prevents Worldstack's model/state architecture from becoming an accidental universal contract for the Production Skills family.
-
-**Exit:** the architecture works both with a simulation-driven real-world consumer and an independently authored fictional world.
+**Exit:** the architecture works with a simulation-driven real-world consumer and an independently authored fictional world.
 
 ---
 
-# 21. Stage 15 — Design Evals, Benchmarks and Regression Fixtures
+# 23. Stage 17 — Design Evals, Benchmarks and Regression Fixtures
 
-Separate evaluation layers.
+Separate:
 
-### Deterministic repository / artefact validation
+- deterministic repository/artefact validation;
+- spatial correctness;
+- reference/reconstruction quality;
+- modular/procedural quality;
+- environment composition quality;
+- runtime readiness;
+- world-state representation;
+- preservation and repair;
+- Extension Pack behaviour;
+- end-to-end production.
 
-Check skill self-containment, required spatial metadata, source/provenance references, world hierarchy validity, pack structure, exact prompts and installation integrity.
+Extension Pack evaluation must include activation/non-activation, precedence, specialised source strategy, changed spatial/procedural behaviour, source-to-behaviour-to-test traceability, fair core-vs-pack comparisons, negative/incompatibility cases, preservation of intentional traits, rejection of actual defects and an additional reuse fixture beyond the showcase.
 
-### Spatial correctness
+Priority regressions include wrong scale, coordinate drift, disconnected roads, repeated procedural blocks, state mismatch, provenance loss, asset-handoff mismatch, streaming boundary failure, invalid regeneration scope and hero-fidelity work before structural acceptance.
 
-Evaluate applicable dimensions such as:
-
-```text
-scale
-coordinate alignment
-topology
-adjacency
-connectivity
-circulation
-route continuity
-interior/exterior relationship
-terrain/building intersection
-partition consistency
-```
-
-### Reference and reconstruction quality
-
-Evaluate:
-
-```text
-source traceability
-measured vs inferred distinction
-approximation disclosure
-landmark / footprint / network fidelity where required
-source-date / freshness relevance
-legal usage constraints preserved
-```
-
-### Modular / procedural quality
-
-Evaluate:
-
-```text
-kit coverage
-snapping / compatibility
-rule consistency
-variation
-visible repetition
-seed reproducibility
-constraint adherence
-manual override preservation
-regeneration scope
-```
-
-### Environment composition quality
-
-Keep dimensions separate:
-
-```text
-spatial hierarchy
-landmark clarity
-composition
-coherence
-density
-silhouette
-readability
-visual rhythm
-environmental storytelling support
-world-scale consistency
-```
-
-### Runtime readiness
-
-Evaluate environment-level requirements such as streaming boundaries, asset/instance budgets, collision/nav handoff completeness, LOD/HLOD readiness and representative performance evidence where applicable.
-
-### World-state representation
-
-For simulation-driven fixtures verify that:
-
-```text
-representation follows authorised state
-representation does not invent unsupported state
-state changes affect only intended environment surfaces
-model implementation can change behind stable contracts
-```
-
-### Preservation and repair
-
-Test that local layout, source, procedural or runtime failures can be repaired without regenerating unaffected approved districts, routes, kits or assets.
-
-### Extension Packs
-
-Test activation, non-activation, precedence, specialised source strategy, changed spatial/procedural behaviour, pack-aware evaluation and core-vs-pack differential behaviour.
-
-### End to end
-
-Use progressive examples plus both canonical stress tests.
-
-Priority regressions include wrong scale, coordinate drift, disconnected roads, repeated procedural blocks, world-state mismatch, provenance loss, asset-handoff mismatch, streaming boundary failure, invalid regeneration scope and hero-fidelity work before structural acceptance.
-
-**Exit:** spatial, provenance, procedural, composition and runtime failures can fail independently.
+**Exit:** spatial, provenance, procedural, composition, runtime and pack failures can fail independently.
 
 ---
 
-# 22. Stage 16 — Generate Six Canonical Specifications
+# 24. Stage 18 — Generate Six Canonical Specifications
 
 Generate:
 
@@ -1156,82 +965,44 @@ docs/
 └── 06-world-environment-production-extension-pack-catalogue.md
 ```
 
-Responsibilities:
+Responsibilities remain:
 
-1. **System:** mission, boundaries, principles, core skills, execution architecture, fidelity/commitment policy, world-state boundary and cross-domain ownership.
-2. **Workflows and Artifacts:** source ingestion, spatial model, world structure, blockout, modular/procedural production, assembly, runtime preparation, preservation, repair and handoffs.
-3. **Repository and Contracts:** repository layout, SKILL.md and command contracts, references/scripts/assets, tool integration, self-containment, installation and CI.
-4. **Testing and Benchmark:** spatial, provenance, procedural, composition, runtime, state-representation, preservation, pack, stress-test and installation evaluation.
-5. **Customisation / Extension Packs:** pack qualification, dimensions, activation, precedence, production effects, packaging, evaluation and authoring.
-6. **Catalogue:** curated coherent world-production profiles, showcases, exact prompts, pack-specific evaluation and maturity state.
+1. **System** — mission, boundaries, principles, core skills, execution, fidelity/commitment, world-state boundary and ownership.
+2. **Workflows and Artifacts** — ingestion, spatial model, structure, blockout, modular/procedural production, assembly, runtime, preservation, repair and handoffs.
+3. **Repository and Contracts** — layout, skills/commands, references/scripts/assets, tool integration, self-containment, installation and CI.
+4. **Testing and Benchmark** — spatial, provenance, procedural, composition, runtime, state, preservation, packs, stress tests and installation.
+5. **Customisation / Extension Packs** — qualification, dimensions, activation, precedence, production effects, packaging, evidence process, evaluation and authoring.
+6. **Catalogue** — curated profiles with selection rationale, five-book foundation and source contributions, research-log references, qualified guidance, showcases/exact prompts, actual outputs when implemented, pack-specific acceptance cases, comparative evidence, clean-install evidence, limitations and separate research/implementation/evaluation/readiness status.
 
-Generate these specs from persisted research logs, not reconstructed conversation memory.
+Generate from persisted research logs rather than conversation memory.
 
-**Exit:** implementation can proceed without inventing environment architecture in code.
-
----
-
-# 23. Stage 17 — Design Public README
-
-Follow the proven Production Skills README structure, adapted to world/environment production:
-
-```text
-# World / Environment Production Skills
-positioning
-what worlds/environments can be produced
-breadth / fidelity / approval control
-installation
-quick start with a Level 1 spatial production example
-5 × 3 Learn by Producing
-project structure grows with the world
-core skills
-Extension Packs
-execution tools
-world-state / representation boundary
-evaluation / benchmarks
-Worldstack + independent stress tests
-documentation
-project boundary
-contributing
-licence
-```
-
-A positioning direction to test:
-
-> Build coherent worlds from evidence, constraints and spatial systems, not isolated environment assets.
-
-Do not claim final engine, DCC or provider support until implemented and tested.
-
-**Exit:** the public product surface is designed before full repository scaffolding.
+**Exit:** implementation can proceed without inventing architecture in code.
 
 ---
 
-# 24. Stage 18 — Cross-Project Review
+# 25. Stage 19 — Design Public README
 
-Only after the domain architecture exists, compare it with Game Development, 3D Production, Deep Research, Legal, UI/UX and mature creative Production Skills.
+Follow the family README structure adapted to world/environment production: positioning, capabilities, breadth/fidelity control, installation, Level 1 quick start, 5×3 examples, project structure, core skills, Extension Packs, execution tools, world-state boundary, evaluation, stress tests, docs, boundary, contributing and licence.
 
-Pay special attention to repeated but still domain-specific concepts such as:
+Do not claim engine/DCC/provider support until implemented and tested.
 
-```text
-cheap representation
-fidelity promotion
-approved-decision preservation
-source provenance
-cross-domain asset requirements
-smallest-scope repair
-Extension Pack semantics
-clean installation
-```
-
-Do not promote a universal world graph, asset graph, spatial schema or provider runtime merely because several projects use maps or scenes.
-
-**Exit:** reusable evidence is captured without weakening world/environment terminology or boundaries.
+**Exit:** the public product surface is designed before scaffolding.
 
 ---
 
-# 25. Stage 19 — Scaffold Production Repository
+# 26. Stage 20 — Cross-Project Review
 
-Only now expand the Stage 0 workspace into the production scaffold justified by the six specs.
+Compare the independently derived model with Game Development, 3D Production, Deep Research, Legal, UI/UX and mature creative Production Skills.
+
+Record repeated concepts such as cheap representation, fidelity promotion, approved-decision preservation, provenance, cross-domain asset requirements, smallest-scope repair, pack semantics and clean installation without prematurely promoting a universal world graph, asset graph, spatial schema or provider runtime.
+
+**Exit:** reusable evidence is captured without weakening domain terminology or boundaries.
+
+---
+
+# 27. Stage 21 — Scaffold Production Repository
+
+Only now expand Stage 0 into the production scaffold justified by the six specs.
 
 Likely baseline:
 
@@ -1259,17 +1030,15 @@ world-environment-production-skills/
 └── .github/
 ```
 
-Do not create engine-specific directory trees, a GIS database or an asset catalogue for symmetry.
+Do not create engine-specific trees, GIS databases or asset catalogues for symmetry.
 
-**Exit:** every production directory has an immediate justified role.
+**Exit:** every production directory has an immediate role.
 
 ---
 
-# 26. Stage 20 — Implement and Prove Core Vertical
+# 28. Stage 22 — Implement and Prove Core Vertical
 
-Implement the minimum skill and command set needed for one meaningful environment workflow.
-
-A strong first vertical should prove:
+Implement the minimum skill/command set for one meaningful end-to-end environment workflow:
 
 ```text
 brief + references
@@ -1282,64 +1051,48 @@ brief + references
 → environment evaluation
 ```
 
-Prefer a bounded environment location rather than a whole city.
+Prefer a bounded location rather than a whole city.
 
 **Exit:** installed core skills can produce and evaluate one realistic environment end to end.
 
 ---
 
-# 27. Stage 21 — Expand Progressive Coverage and Extension Packs
+# 29. Stage 23 — Expand Progressive Coverage and Extension Packs
 
-Expand gradually to the 15 planned examples and representative packs.
+Expand gradually to the 15 examples and representative packs.
 
-For each implemented pack prove:
+For every implemented pack prove:
 
 ```text
 core works without pack
 core + pack changes intended production behaviour
-explicit requirements and approved world decisions outrank pack defaults
-pack-aware evaluation recognises intentional specialisation
-pack authoring can create or revise a valid pack
+explicit requirements and approved decisions outrank pack defaults
+pack-aware evaluation recognises intentional specialisation without hiding defects
+showcase has exact prompt and actual generated artefacts
+additional reuse fixture demonstrates generality beyond the showcase
+research / implementation / evaluation status is explicit
+clean consumer-project installation succeeds
 ```
-
-Every implemented pack should include a realistic showcase, exact prompt, behavioural evals and core-vs-pack evidence.
 
 **Exit:** breadth and specialisation are demonstrated rather than only specified.
 
 ---
 
-# 28. Stage 22 — Validate Installation and Repository Integrity
+# 30. Stage 24 — Validate Installation and Repository Integrity
 
-Validate:
+Validate repository contracts, skill self-containment, command discovery, selective installation, clean consumer-project installation, skill-local references/scripts/assets, tool prerequisites, benchmark entry points, example reproducibility and no undocumented source-checkout dependencies.
 
-```text
-repository contracts
-skill self-containment
-command discovery
-selective installation
-clean consumer-project installation
-skill-local references / scripts / assets
-tool prerequisites
-benchmark entry points
-example reproducibility
-no undocumented source-checkout dependencies
-```
-
-Keep source-repository validation separate from clean external installation.
+Keep local validation separate from clean external installation.
 
 **Exit:** the repository behaves as an installable Agent Skills product.
 
 ---
 
-# 29. Stage 23 — Optional Pactwright Integration and Registry Promotion
+# 31. Stage 25 — Optional Pactwright Integration and Registry Promotion
 
-If useful, add:
+If useful, add `integrations/pactwright.yml` for compatibility and capability bindings only.
 
-```text
-integrations/pactwright.yml
-```
-
-Worldstack's composition boundary remains the reference:
+Worldstack's composition boundary remains:
 
 ```text
 Pactwright
@@ -1348,7 +1101,7 @@ Pactwright
 → domain production
 ```
 
-Production Skills own domain workflow, artefacts, commands, tools and evaluation. Pactwright owns Contract fulfilment, lifecycle authority and Evidence. Consuming-project intelligence owns project-specific durable conclusions.
+Production Skills owns domain workflow, artefacts, commands, tools and evaluation. Pactwright owns Contract fulfilment, lifecycle authority and Evidence. Consuming-project intelligence owns project-specific conclusions.
 
 Maturity remains evidence-based:
 
@@ -1364,71 +1117,98 @@ proposed
 
 Repository creation alone does not promote maturity.
 
-**Exit:** Pactwright can resolve environment-production capability without becoming required by the skills repository.
+**Exit:** Pactwright can resolve environment-production capability without becoming required by the repository.
 
 ---
 
-# 30. Stage 24 — Review Shared-Abstraction Candidates
+# 32. Stage 26 — Review Shared-Abstraction Candidates
 
 After implementation evidence exists, apply `shared-abstraction-process.md`.
 
-Potential candidates may include:
+Possible candidates include fidelity-promotion semantics, source/provenance handoff, asset-requirement handoff, spatial acceptance metadata and representation mapping.
 
-```text
-fidelity-promotion semantics
-source / provenance handoff
-asset-requirement handoff
-spatial acceptance metadata
-representation mapping
-```
-
-Do not centrally promote a universal world graph, universal asset graph, universal spatial ontology, universal procedural runtime or universal environment evaluator without repeated independent evidence.
+Do not centrally promote a universal world graph, asset graph, spatial ontology, procedural runtime or environment evaluator without repeated independent evidence.
 
 ---
 
-# 31. World / Environment Acceptance Gates
+# 33. World / Environment Acceptance Gates
 
 Before maturity, demonstrate:
+
+### Research foundation
+
+- a domain knowledge-coverage map exists;
+- exactly five foundational books were selected through complementary coverage;
+- supplied-book substitution decisions are explicit;
+- source access and material actually examined are recorded;
+- all five books have traceable per-book extraction;
+- source-to-capability and overlap/conflict analysis exists;
+- broader professional research challenges the corpus and fills material gaps;
+- the resulting model is evidence-qualified and independently useful beyond Worldstack.
 
 ### Spatial production
 
 - scale, topology and connectivity are explicitly represented where relevant;
-- environment breadth can be proved before expensive detail;
+- breadth can be proved before expensive detail;
 - approved spatial structure survives unrelated refinements;
 - source uncertainty and approximation remain visible;
-- modular/procedural rules are inspectable and reproducible where required;
+- modular/procedural rules are inspectable and reproducible;
 - manual overrides survive appropriate regeneration;
 - environment-level runtime constraints are considered before final production.
 
 ### Cross-domain behaviour
 
-- Game Development constraints can shape environment layout without moving gameplay ownership into this project;
+- Game Development constraints shape layout without moving gameplay ownership here;
 - 3D asset requirements can be handed off and reintegrated;
 - Worldstack state can be represented without becoming environment-owned truth;
 - Deep Research evidence and Legal provenance constraints survive handoff;
 - project-specific world knowledge does not leak into reusable core skills.
 
-### Evaluation
+### Extension Packs
 
-- wrong scale, broken topology, provenance loss, procedural repetition, state-representation mismatch and runtime-preparation defects can fail independently;
+- a broader candidate pool and catalogue coverage matrix exist;
+- selected packs are production specialisations, not engine, biome or geography labels;
+- every selected pack has a justified five-book corpus;
+- per-pack extraction and challenge evidence is traceable;
+- source-to-behaviour-to-test mapping exists;
+- fair core-vs-pack comparisons use the same substantive brief and comparable conditions;
+- an additional reuse fixture exists beyond each showcase;
+- showcase prompts are not treated as implementation evidence;
+- research, implementation, evaluation and readiness status remain separate;
+- ready packs have clean-install evidence.
+
+### Evaluation and product behaviour
+
+- wrong scale, broken topology, provenance loss, procedural repetition, state mismatch and runtime defects can fail independently;
 - local repair preserves unaffected approved world work;
 - known failures become regression fixtures;
-- Extension Packs materially change production behaviour and are differentially evaluated;
-- both Worldstack and independent-fictional stress tests pass meaningful slices.
-
-### Product behaviour
-
+- both Worldstack and independent-fictional stress tests pass meaningful slices;
 - core works without packs;
 - 15 primary progressive examples exist with exact prompts;
-- six canonical spec responsibilities exist;
+- six canonical specification responsibilities exist;
 - public README reflects implemented capability accurately;
 - skills are self-contained;
 - local and clean external installation pass;
 - engine/provider claims are backed by implementation evidence.
 
+The bootstrap must reject these false completion signals:
+
+```text
+five popular books with redundant coverage
+bibliography presented as completed research
+Worldstack documentation treated as the whole discipline
+engine documentation treated as the whole professional workflow
+books treated as measured geographic truth
+one book → one skill
+five books → five packs
+city / forest / engine labels treated as sufficient packs
+catalogue prompt presented as implementation evidence
+pack directory presented as evaluation evidence
+```
+
 ---
 
-# 32. Initial Non-Goals
+# 34. Initial Non-Goals
 
 Until evidence proves otherwise, `world-environment-production-skills` is not:
 
@@ -1450,7 +1230,7 @@ Until evidence proves otherwise, `world-environment-production-skills` is not:
 
 ---
 
-# 33. Success Criterion
+# 35. Success Criterion
 
 This bootstrap succeeds if later sessions can execute each stage from persisted research logs without redesigning the project from first principles.
 
